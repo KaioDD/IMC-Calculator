@@ -1,7 +1,5 @@
 import 'package:project/project.dart' as project;
 import 'dart:io';
-void main(List<String> arguments) {
-
   void main() {
     print("Qual seu nome?");
     String? nome = stdin.readLineSync();
@@ -43,4 +41,4 @@ void main(List<String> arguments) {
       }
     }
   }
-}
+
